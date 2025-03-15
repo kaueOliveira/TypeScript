@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/validator": "^13.12.2",
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
+  },
+  "dependencies": {
+    "validator": "^13.12.0"
+  }
+}

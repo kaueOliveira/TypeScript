@@ -1,4 +1,5 @@
-//O Structural Type System no Typescript significa que o sistema de tipos é baseado na forma (estrutura) dos objetos, e nao em suas identidades ou nomes. Isso significa que, se dois objetos têm a mesma estrutura, eles são considerados do mesmo tipo, mesmo que não tenham relação explícita entre si. 
+//O Structural Type System no Typescript significa que o sistema de tipos é baseado na forma (estrutura) dos objetos, e nao em suas identidades ou nomes. 
+// Isso significa que, se dois objetos têm a mesma estrutura, eles são considerados do mesmo tipo, mesmo que não tenham relação explícita entre si. 
 
 type Pessoa = { nome: string; idade: number };
 
